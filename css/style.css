@@ -1,0 +1,37 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    font-size: 62.5%;
+}
+
+h1{
+    font-family: 'Cairo Play', sans-serif;
+    color: #0f0f0f;
+    font-size: 9.6rem;
+    font-weight: 900;
+    font-style: oblique;
+}
+h2{
+    font-size: 3.2rem;
+    font-family: monospace;
+    color:#0f0f0f;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    text-align: justify;
+    text-indent: 1.0rem;
+}
+.bg{
+    height: 30rem;
+    width: 100%;
+    background-color: #555;
+    background-image: url('https://plus.unsplash.com/premium_photo-1683740128609-9b20f5e75d40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}

@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+table{
+    font-size: 2.4rem;
+    border-collapse: separate;
+}
+table tr:first-child{
+    background-color: #a52a2a;
+    color: #fff;
+}
+table tr:nth-child(2n+3){
+    background-color: #d3d3d3;
+}
+
+h1{
+    font-family: 'Cairo Play', sans-serif;
+    color: #0f0f0f;
+    font-size: 9.6rem;
+    font-weight: 900;
+    font-style: oblique;
+}
+h2{
+    font-size: 3.2rem;
+    font-family: monospace;
+    color:#0f0f0f;
+}
+.bg{
+    height: 30rem;
+    width: 100%;
+    background-color: #555;
+    background-image: url('https://plus.unsplash.com/premium_photo-1683740128609-9b20f5e75d40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+ul, ol{
+    padding-left: 2.8rem;
+}
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style: lower-roman;
+}
+li{
+    font-size: 1.8rem;
+}
+.box{
+    height: 10rem;
+    width: 20rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-color: #a52a2a;
+    color: #fff;
+    border: .4rem solid #555;
+    display: inline-block;
+    position:static;
+}
+
+.box:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
