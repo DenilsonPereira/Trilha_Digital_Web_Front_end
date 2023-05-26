@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "vite": "^4.3.9"
   }
 }
